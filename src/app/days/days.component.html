@@ -1,0 +1,14 @@
+<h1>Очереди</h1>
+<ul class="days">
+  <li class="day_li" *ngFor="let day of days">
+    <h2><strong>{{day.name}}</strong></h2>
+    <h3>{{day.term}}</h3>
+    <ul class="queues">
+      <li *ngFor="let queue of day.queues">
+        <span class="badge">{{queue.id}}</span>
+        <span>{{queue.name}}</span>
+        <span class="time">{{queue.range}}</span>
+      </li>
+    </ul>
+  </li>
+</ul>`

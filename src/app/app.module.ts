@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { DaysComponent } from './days/days.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DaysComponent,
   ],
   imports: [
     BrowserModule
